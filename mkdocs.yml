@@ -1,0 +1,66 @@
+site_name: Ballance Discord
+site_description: 'The related content for Ballance Discord Server'
+site_author: 'yyc12345'
+site_url: 'https://yyc12345.github.io/ballance-discord-rules/'
+
+copyright: 'Text is available under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC-BY-NC-SA 4.0</a>.'
+
+nav:
+    - 「    」: 
+        - 'Ballance Discord': 'index.md'
+        - 'Contributor': 'contributor.md'
+    - English:
+        - 'Homepage': 'en/main.md'
+        - 'Server rules': 'en/srv_rules.md'
+        - 'Links': 'en/links.md'
+        - 'FAQ': 'en/faq.md'
+    - 简体中文:
+        - '主页': 'zh-hans/main.md'
+        - '服务器规则': 'zh-hans/srv_rules.md'
+    - Dustish:
+        - 'Startseite': 'de/main.md'
+        - 'Serverregeln': 'de/srv_rules.md'
+
+
+theme:
+  name: 'material'
+  font: false
+  palette:
+    primary: teal
+    accent: teal
+  language: 'en'
+  favicon: './img/favicon.ico'
+  feature:
+    tabs: true
+  logo: './img/icon.svg'
+
+plugins: []
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/yyc12345/ballance-discord-rules'
+    - type: 'discord'
+      link: 'https://discord.gg/hyarMPm'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - ./javascript/website.js
