@@ -2,17 +2,17 @@
 
 ## <span id="jump-1">Install Ballance</span>
 
-Go to our [official network disk](#jump-9) to download installer. Then, run it. (Installer's language is Chinese)
+Go to our [official network disk](#jump-9) to download installer. Then, run it. (Note that the installer is in Chinese.)
 
 ## <span id="jump-2">Install custom map</span>
 
 1. Locate `Ballance/3D Entities/Level`
-1. Let your map file overlay any one file from Level_01.NMO to Level_13.NMO(Don't forget to make backups of your original files)
-1. Open game and go to matched level to play new map
+1. Replace one of the default levels (named Level_01.NMO to Level_13.NMO) with your custom map (Don't forget to make backups of your original files)
+1. Launch the game and go to matched level to play new map
 
 ## <span id="jump-3">Run Ballance on Windows 10</span>
 
-Go to Ballance's root folder and right click Startup.exe, select Properties. Select the Compatibility tab, then check the box next to "Run this program in compatibility mode for:". Follow this priority to set up the version of Windows: Windows Vista SP2 -> Windows XP SP3 -> Windows XP SP2 -> Windows 95. You also can install a virtual machine to run Ballance if the above method is not work.
+Go to Ballance's root folder and right click Startup.exe, select `Properties`. Select the `Compatibility` tab, then check the box next to `Run this program in compatibility mode for:`. Follow this priority to set up the version of Windows: `Windows Vista SP2` -> `Windows XP SP3` -> `Windows XP SP2` -> `Windows 95`. You can also install a virtual machine to run Ballance if the above method is not work.
 
 ## <span id="jump-4">Run Ballance on Linux or macOS</span>
 
@@ -20,10 +20,10 @@ Use wine to run installer and everything will be OK (Use Bin/Player.exe to start
 
 ## <span id="jump-5">Install Debug Mode</span>
 
-If you want to use debug mode, you need to install BallanceModLoader firstly. BallanceModLoader and debug mode's download url can be got from our official network disk (Use !resources to get it).
+If you want to use debug mode, you need to install BallanceModLoader first. The download link of BallanceModLoader and debug mode can be got from our official network disk (Use !resources to get it).
 
-If you get it, you should run BallanceModLoader's installer in advance. It is a msi file. Btw, BallanceModLoader only have Chinese installation instruction. What the most important things is that selecting a correct Ballance root folder (Which conatin database.tdb).
-If you install BallanceModLoader successfully, you can install Debug.nmo. Open your Ballance root folder. Expand folder into ModLoader/Mod. Then put debug.nmo in there. Then, open the game. If you see some words is displayed at the top of the game, congratulation, you install Debug mode successfully.
+Once you had it downloaded, BallanceModLoader installer is presented as an msi file, you can double-click on it to install. Unfortunately, BallanceModLoader installer is only available in Chinese. Navigate to the root of your install of Ballance to proceed. (Which should contain database.tdb).
+If you install BallanceModLoader successfully, you can install Debug.nmo. Navigate to your Ballance installation, put `debug.nmo` to `ModLoader/Mod`. Now launch the game. If you see some words displayed at the top of the game, congratulation, you have install Debug mode successfully.
 
 ## <span id="jump-6">Install Level 13 / Twilight Zone / SuDu</span>
 
