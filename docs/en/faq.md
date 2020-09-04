@@ -20,10 +20,14 @@ Use wine to run installer and everything will be OK (Use Bin/Player.exe to start
 
 ## <span id="jump-5">Install Debug Mode</span>
 
-If you want to use debug mode, you need to install BallanceModLoader firstly. BallanceModLoader and debug mode's download url can be got from our official network disk (Use !resources to get it).
+!!! warning "Outdated content warning"
+    This method is only suitable for the installation of the old version of BML(2015 version), and the old version of BML is no longer supported, please go to [the chapter of installing BML](#jump-10) for details.
 
-If you get it, you should run BallanceModLoader's installer in advance. It is a msi file. Btw, BallanceModLoader only have Chinese installation instruction. What the most important things is that selecting a correct Ballance root folder (Which conatin database.tdb).
-If you install BallanceModLoader successfully, you can install Debug.nmo. Open your Ballance root folder. Expand folder into ModLoader/Mod. Then put debug.nmo in there. Then, open the game. If you see some words is displayed at the top of the game, congratulation, you install Debug mode successfully.
+If you want to use debug mode, you need to install **old BallanceModLoader**(2015 version) firstly. See the [section Installing BML](#jump-10) to learn how to install.
+
+Debug mode's download url can be got from our [official network disk](#jump-9). Open the `Plugin` directory and download `Debug_Mode.nmo`.
+
+If you install BallanceModLoader successfully, you can install `Debug_Mode.nmo`. Open your Ballance root folder. Expand folder into `ModLoader/Mod`. Then put `Debug_Mode.nmo` in there. Then, open the game. If you see some words is displayed at the top of the game, congratulation, you install Debug mode successfully.
 
 ## <span id="jump-6">Install Level 13 / Twilight Zone / SuDu</span>
 
@@ -97,3 +101,27 @@ Included resources:
 * Virtools 3.5
 * Some mapping tools
 * etc...
+
+## <span id="jump-10">Install Ballance Mod Loader</span>
+
+Ballance Mod Loader (BML) is a free open-source API to expand the original content of Ballance. BML is divided into two versions, old and new. **The old version has been discontinued, so it is recommended to use the new version.**
+
+You can download these two versions on our [Mega network disk](#jump-9). The old version(2015 version) is `BallanceModLoader-Gamepiaynmo-Old(2015).msi` and the new version(2020 version) is `BallanceModLoader-Gamepiaynmo-New(2020-0.3.24).zip`
+
+For different versions, you need to use different methods to install it.
+
+### New version
+
+!!! info "Migrate infomation"
+    For users with the old BML version, for example, those who installed the "Debug Mode" mod installed, please remove that BML version. If you are unsure about how to remove it, consider uninstalling and re-installing Ballance itself.
+
+First, Extract and merge downloaded file with the Ballance folder.
+
+If you are using compatibility mode to run the game, that should be set to Windows XP or above (since BML removed the system check that Ballance performs every time when booting the game, compatibility issues should disappear while using BML).
+
+A "Ballance mod loader" mark at the top of the screen indicates that BML is installed correctly.
+
+### Old version
+
+After download installer, you just need to run it. It is a msi file. Btw, BallanceModLoader only have Chinese installation instruction. What the most important things is that selecting a correct Ballance root folder (Which conatin database.tdb).
+
