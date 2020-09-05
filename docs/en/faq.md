@@ -12,7 +12,7 @@ Go to our [official network disk](#jump-9) to download the installer. Then, run 
 
 ## <span id="jump-3">Running Ballance on Windows 10</span>
 
-Go to Ballance's root folder and right click Startup.exe, select `Properties`. Select the `Compatibility` tab, then check the box next to `Run this program in compatibility mode for:`. Follow this order to set up the version of Windows: `Windows 7` -> `Windows Vista SP2` -> `Windows XP SP3` -> `Windows XP SP2` -> `Windows 95`. You can also install a virtual machine to run Ballance if the above method is not working, or you can try installing [BML (2020 version)](#jump-10).
+Go to Ballance's root folder and right click Startup.exe, select `Properties`. Select the `Compatibility` tab, then check the box next to `Run this program in compatibility mode for:`. Follow this order to set the version of Windows: `Windows 7` -> `Windows Vista SP2` -> `Windows XP SP3` -> `Windows XP SP2` -> `Windows 95`. You can also install a virtual machine to run Ballance if the above method is not working, or you can try installing [BML (2020 version)](#jump-10).
 
 ## <span id="jump-4">Running Ballance on Linux or macOS</span>
 
@@ -78,16 +78,16 @@ Yes. Go to Files, Settings and then Hotkeys. I suggest you put it like these:
 
 How do I capture the video?
 
-When you open OBS (64bit), you will see a small window called "Sources".
+When you open OBS, you will see a small window called "Sources".
 
-Click the +, and you must select Game Capture.
-When you do it, click OK.
+Click the `+`, and select Game Capture.
+When you have done it, click OK.
 
 You must name the Game Capture, of course.
 
-Then, a window will pop up. If you create a Game Capture named "Ballance", you can either put it to capture any fullscreen application, but if you want to, click Mode and then put it on "Capture Specific Window. It will give you an option of what window to put. If the window is correct, then start the game, and start recording.
+Then, a window will pop up. If you have created a Game Capture named "Ballance", you can either put it to capture any fullscreen application, but if you want to, click Mode and then put it on "Capture Specific Window. It will give you an option of what window to put. If the window is correct, then start the game, and start recording.
 
-Want audio recorded? Try setting it on one of the speaker options.
+Want the audio to be recorded? Try setting it on one of the speaker options.
 
 ## <span id="jump-9">Ballance resources</span>
 
@@ -102,7 +102,7 @@ Resources included:
 
 ## <span id="jump-10">Installing Ballance Mod Loader</span>
 
-Ballance Mod Loader (BML) is a free open-source API to expand the original content of Ballance. BML is divided into two versions, old (2015) and new (2020). **The old version has been discontinued, so it is recommended to use the new version.**
+Ballance Mod Loader (BML) is a free open-source API to expand the original content of Ballance. BML is divided into two versions, old (2015) and new (2020). **The older version has been discontinued, so it is recommended to use the newer version.**
 
 You can download these two versions on our [Mega network disk](#jump-9). The old version(2015 version) is `BallanceModLoader-Gamepiaynmo-Old(2015).msi` and the new version(2020 version) is `BallanceModLoader-Gamepiaynmo-New(2020-0.3.24).zip`
 
