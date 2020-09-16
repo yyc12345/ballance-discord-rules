@@ -8,15 +8,15 @@ Go to our [official network disk](#jump-9) to download the installer. Then, run 
 
 1. Locate `Ballance/3D Entities/Level`
 1. Replace one of the default levels (named Level_01.NMO to Level_13.NMO) with your custom map (Don't forget to make backups of your original files)
-1. Launch the game and go to the matched level to play it
+1. Launch the game and go to the matching level to play it
 
 ## <span id="jump-3">Running Ballance on Windows 10</span>
 
-Go to Ballance's root folder and right click Startup.exe, select `Properties`. Select the `Compatibility` tab, then check the box next to `Run this program in compatibility mode for:`. Follow this order to set the version of Windows: `Windows 7` -> `Windows Vista SP2` -> `Windows XP SP3` -> `Windows XP SP2` -> `Windows 95`. You can also install a virtual machine to run Ballance if the above method is not working, or you can try installing [BML (2020 version)](#jump-10).
+Go to Ballance's root folder and right-click Startup.exe, select `Properties`. Select the `Compatibility` tab, then check the box next to `Run this program in compatibility mode for:`. Follow this order to set the version of Windows: `Windows 7` -> `Windows Vista SP2` -> `Windows XP SP3` -> `Windows XP SP2` -> `Windows 95`. You can also install a virtual machine to run Ballance if the above method is not working, or you can try installing [BML (2020 version)](#jump-10).
 
 ## <span id="jump-4">Running Ballance on Linux or macOS</span>
 
-Use wine to run the installer and everything will be OK (Use Bin/Player.exe to start game). You also can install a virtual machine with Windows XP to play Ballance if wine is not work.
+Use Wine to run the installer and everything will be OK (Use Bin/Player.exe to start the game). You also can install a virtual machine with Windows XP to play Ballance if Wine is not working.
 
 ## <span id="jump-5">Installing Debug Mode</span>
 
@@ -25,23 +25,23 @@ Use wine to run the installer and everything will be OK (Use Bin/Player.exe to s
 
 If you want to use debug mode, you need to install the **old BallanceModLoader**(2015 version) first. See the [section of Installing BML](#jump-10) to learn how to install.
 
-Debug mode's download url can be got from our [official network disk](#jump-9). Open the `Plugin` directory and download `Debug_Mode.nmo`.
+Debug mode's download URL can be got from our [official network disk](#jump-9). Open the `Plugin` directory and download `Debug_Mode.nmo`.
 
 If you have installed BallanceModLoader successfully, you can install `Debug_Mode.nmo`. Navigate to your Ballance installation directory, put `Debug_Mode.nmo` to `ModLoader/Mod`. Now launch the game. If you see some words displayed at the top of the game, congratulations! You have installed Debug mode successfully.
 
 ## <span id="jump-6">Installing Level 13 / Twilight Zone / SuDu</span>
 
-If you are using the original CD version of Ballance, this tutorial will introduce how to install official SuDu plugin (Level 13 plugin).
+If you are using the original CD version of Ballance, this tutorial will introduce how to install the official SuDu plugin (Level 13 plugin).
 
-1. Go to our [official network disk](#jump-9) to download plugin which is located in `Installer` folder, called `SuDu-BallanceLevel13.zip`.
+1. Go to our [official network disk](#jump-9) to download the plugin which is located in the `Installer` folder, called `SuDu-BallanceLevel13.zip`.
 1. Use a compression software, such as Winzip or 7z to decompress it.
-1. Go to `SuDu_BallanceLv13` folder.
+1. Go to the `SuDu_BallanceLv13` folder.
 1. You will see a file called `SuDu_ReadMe.txt`. Open it and follow its instruction to install this plugin.
 
 ## <span id="jump-7">How to get custom maps</span>
 
 Recent custom maps:  
-You can find recent custom map in `#new` . You can search `#new` with file limitaion to get what you need.
+You can find recent custom maps in `#new`. You can search `#new` with file limitation to get what you need.
 
 __[Download Ballance Map Pack (Version 7.6)](http://www.mediafire.com/folder/vyzo7893i0oln/Ballance_Map_Packs)__
 Map Pack contains lots of high-quality custom maps.
@@ -54,7 +54,7 @@ Want to record your ballance runs but don't know how to?
 
 Well, don't worry, there is always a solution. Download OBS Studio here: https://obsproject.com/
 
-It supports MP4, youtube and more.
+It supports MP4, youtube, and more.
 
 Tutorial video: https://m.youtube.com/watch?v=XllRHuCe07A
 
@@ -72,7 +72,7 @@ There is an Option called Replay Buffer. If you use 1280x720 with 1500 Bitrate, 
 
 Is there another way to start recording other than manually touching the "Start Recording" button?
 
-Yes. Go to Files, Settings and then Hotkeys. I suggest you put it like these:
+Yes. Go to Files, Settings, and then Hotkeys. I suggest you put it like these:
  - Start Recording: F1
  - Stop Recording: F2
 
@@ -85,7 +85,7 @@ When you have done it, click OK.
 
 You must name the Game Capture, of course.
 
-Then, a window will pop up. If you have created a Game Capture named "Ballance", you can either put it to capture any fullscreen application, but if you want to, click Mode and then put it on "Capture Specific Window. It will give you an option of what window to put. If the window is correct, then start the game, and start recording.
+Then, a window will pop up. If you have created a Game Capture named "Ballance", you can either put it to capture any fullscreen application, but if you want to, click Mode and then put it on "Capture Specific Window. It will give you an option of what window to put. If the window is correct, then start the game and record.
 
 Want the audio to be recorded? Try setting it on one of the speaker options.
 
@@ -115,11 +115,11 @@ For different versions, different methods of installation should be used.
 
 First, extract and merge the downloaded files with the Ballance folder.
 
-If you are using compatibility modes to run the game, it should be set to Windows XP or above (since BML removed the system check that Ballance performs every time when booting the game, compatibility issues should disappear while using BML).
+If you are using compatibility modes to run the game, it should be set to Windows XP or above (since BML removed the system check that Ballance performs when booting the game, compatibility issues should disappear while using BML).
 
 A "Ballance mod loader" mark at the top of the screen indicates that BML is installed correctly.
 
 ### Old version
 
-Once you have it downloaded, BallanceModLoader installer is presented as an msi file, and can be double-clicked to install. Unfortunately, BallanceModLoader installer is only available in Chinese. What the most important things during installation is that selecting a correct Ballance root folder (Which conatin database.tdb).
+Once you have it downloaded, the BallanceModLoader installer is presented as an MSI file and can be double-clicked to install. Unfortunately, the installer is only available in Chinese. What the most important thing during installation is that selecting a correct Ballance root folder (Which contains database.tdb).
 
