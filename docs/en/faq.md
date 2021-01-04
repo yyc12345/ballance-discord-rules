@@ -6,9 +6,22 @@ Go to our [official network disk](#jump-9) to download the installer. Then, run 
 
 ## <span id="jump-2">Installing custom maps</span>
 
+There are 2 method to install custom map. Normal method is suit for everyone. And if you have installed [the new version of BML (2020 version)](#jump-10), you can use BML method to install custom map.
+
+### Normal method
+
 1. Locate `Ballance/3D Entities/Level`
 1. Replace one of the default levels (named Level_01.NMO to Level_13.NMO) with your custom map (Don't forget to make backups of your original files)
 1. Launch the game and go to the matching level to play it
+
+### BML method
+
+!!! warning "Version warning"
+    If you are running BML with lower version than 0.3.28, this method may cause game crash. Please update to the latest version of BML.
+
+1. Place map files in the `Ballance/ModLoader/Maps` Folder.
+1. Launch game and go to Start menu.
+1. A triangular button should appear right to the level selection menu; click to choose the custom map you wish to play. You can also search by typing its name.
 
 ## <span id="jump-3">Running Ballance on Windows 10</span>
 
@@ -104,7 +117,7 @@ Resources included:
 
 Ballance Mod Loader (BML) is a free open-source API to expand the original content of Ballance. BML is divided into two versions, old (2015) and new (2020). **The older version has been discontinued, so it is recommended to use the newer version.**
 
-You can download these two versions on our [Mega network disk](#jump-9). The old version(2015 version) is `BallanceModLoader-Gamepiaynmo-Old(2015).msi` and the new version(2020 version) is `BallanceModLoader-Gamepiaynmo-New(2020-0.3.24).zip`
+Old version of BML can be downloaded on our [Mega network disk](#jump-9). The old version(2015 version) is named as `BallanceModLoader-Gamepiaynmo-Old(2015).msi`. But for the new version(2020 version), you should download it from [the release page of Gamepiaynmo's GitHub project](https://github.com/Gamepiaynmo/BallanceModLoader/releases).
 
 For different versions, different methods of installation should be used.
 
@@ -112,6 +125,9 @@ For different versions, different methods of installation should be used.
 
 !!! info "Migrate infomation"
     For users with the old BML version, for example, those who have the "Debug Mode" mod installed, please remove that BML version. If you are unsure about how to remove it, consider uninstalling and re-installing Ballance itself.
+
+!!! warning "Version warning"
+    I am highly recommend keeping your BML at the latest version. Some BML mod required the latest version of BML and the the latest version fix more bugs and will improve your game experience.
 
 First, extract and merge the downloaded files with the Ballance folder.
 
