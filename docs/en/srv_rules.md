@@ -81,7 +81,9 @@ Channels under the `language` category can send off-topic content without the ex
 
 ## Punishment of violations
 
-This punishment applies to all channels. Root and admin have the right to handle the responsible person when the following violations occur. When the first time the administrator will ask the responsible person to correct the error, the second time, the administrator will add the responsible person to the blacklist after 24 hours, if the responsible person needs to appeal, please explain to the administrator within 24 hours.
+This punishment applies to all channels. Server owner, `admin` and `moderator` have the right to handle the responsible person when the following violations occur. When the first time the administrator will ask the responsible person to correct the error, the second time, the administrator will add the responsible person to the blacklist after 24 hours, if the responsible person needs to appeal, please explain to the administrator within 24 hours.
+
+Administrators have right to delete violation message or message flow to keep a clean server without any notification.
 
 ### Violations
 * Insult others, racial discrimination.
