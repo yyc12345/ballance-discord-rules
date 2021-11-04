@@ -26,21 +26,44 @@ theme:
   name: 'material'
   font: false
   palette:
-    primary: teal
-    accent: teal
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
   language: 'en'
   favicon: './img/favicon.ico'
-  feature:
-    tabs: true
-  logo: './img/icon.svg'
+  features:
+    - navigation.tabs
+  icon:
+    logo: 'material/scale-balance'
 
 plugins: []
 
 extra:
+  alternate:
+    - name: English
+      link: /ballance-discord-rules/en/main
+      lang: en
+    - name: 简体中文
+      link: /ballance-discord-rules/zh-hans/main
+      lang: zh
+    - name: Deutsch
+      link: /ballance-discord-rules/de/main
+      lang: de
   social:
-    - type: 'github'
+    - icon: 'fontawesome/brands/github'
       link: 'https://github.com/yyc12345/ballance-discord-rules'
-    - type: 'discord'
+    - icon: 'fontawesome/brands/discord'
       link: 'https://discord.gg/hyarMPm'
 
 markdown_extensions:
