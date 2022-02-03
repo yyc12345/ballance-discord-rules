@@ -117,7 +117,7 @@ Resources included:
 
 Ballance Mod Loader (BML) is a free open-source API to expand the original content of Ballance. BML is divided into two versions, old (2015) and new (2020). **The older version has been discontinued, so it is recommended to use the newer version.**
 
-Old version of BML can be downloaded on our [Mega network disk](#jump-9). The old version(2015 version) is named as `BallanceModLoader-Gamepiaynmo-Old(2015).msi`. But for the new version(2020 version), you should download it from [the release page of Gamepiaynmo's GitHub project](https://github.com/Gamepiaynmo/BallanceModLoader/releases).
+Old version of BML can be downloaded on our [Mega network disk](#jump-9). The old version(2015 version) is named as `BallanceModLoader-Gamepiaynmo-Old(2015).msi`. But for the new version(2020 version), you should download it from [the release page of Gamepiaynmo's GitHub project](https://github.com/Gamepiaynmo/BallanceModLoader/releases). In this release page, please download the latest build. Do not download the dev package(filename ending with `-dev`). Download another zip file is OK.
 
 For different versions, different methods of installation should be used.
 
