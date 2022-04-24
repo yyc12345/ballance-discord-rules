@@ -15,7 +15,7 @@ There are 3 types of roles: admin roles, work roles and medal roles. Admin roles
 Following roles is admin roles, if it reach the maximum, a election will be hold.
 
 * `admin`: Core administrator. Maximum is 4. Responsibilities are manage server and resolve conflict.
-* `moderator`: Light administrator. Maximum is 20. It take responsibility to help core administrator. Current main work is clean advertisement and unsafe account.
+* `moderator`: Light administrator. Maximum is 10. It take responsibility to help core administrator. Current main work is clean advertisement and unsafe account.
 
 Following roles is work roles
 
@@ -34,10 +34,14 @@ The other roles are all abandoned roles. For some binding reasons, they have not
 
 ## Get roles
 
-Following roles are related to MEE6 level.
+Following roles are server core members.
 
-* `admin`: Reach Level 30 in MEE6. And then you can contact with server host to try getting this role.
-* `moderator`: Reach Level 20 in MEE6. And then you can contact with server host to try getting this role.
+* `admin`: You can fill a form in Addy to try getting this role if you fufill following requirements.
+  * Reach Level 30 in MEE6.
+  * Have at least one server role.
+* `moderator`: You can fill a form in Addy to try getting this role if you fufill following requirements.
+  * Reach Level 20 in MEE6.
+  * Have at least one server role.
 
 Following roles are specified by server owner. Unavailable.
 
@@ -45,7 +49,7 @@ Following roles are specified by server owner. Unavailable.
 * `gamedev`
 * `expert speedrunner`
 
-The people who have admin roles, will add following roles for you if you have related message or action. You also can contact with us, provide related data and get following roles.
+The people who have admin roles, will add following roles for you if you have related message or action. You also can fill form by Addy to order admin add following roles for you if you have real work.
 
 * `modding`
 * `mapper`
@@ -56,7 +60,6 @@ The people who have admin roles, will add following roles for you if you have re
 
 ### Channel basic rules
 
-
 In addition to the channels in the `language` category, please send messages in English in all other channels. The channels contained in `language` category should send message in the language written on channel name.
 You also can join your language's channel for easier communication. If you don't find your language, you can apply for it to be added by contacting an admin.
 Additionally, please look channel's topic and pinned messages. Because they might have extra rules which should be followed in this channel.
@@ -66,10 +69,13 @@ Channels under the `language` category can send off-topic content without the ex
 
 * **welcome**: Welcome channel. Some brief rules, links and introduction.
 * **speedrun**: Speedrun channel. Serveed for publishing contest or tournament.
+* **new**:  Publish / Get new speedrun, custom map, application, texture and audio effect.
 * **bulletin**: Server bulletin.
 
+* **bmmo**: The release channel for Ballance Multiplay Service, including the latest plugin and available server URL.
+* **lobby**: The channel for BMMO players to chat and team up.
+
 * **general**: Core chat channel
-* **new**:  Publish / Get new speedrun, custom map, application, texture and audio effect.
 * **skill**: Discuss game skills and shortcuts, such as high-speed ball glitch / zip glitch.
 * **dev**: Ballance related development, such as Virtools.
 * **missions**: A challenge list for all Ballance player.
@@ -85,7 +91,7 @@ This punishment applies to all channels. Server owner, `admin` and `moderator` h
 
 Administrators have right to delete violation message or message flow to keep a clean server without any notification.
 
-### Violations
+### Text & Voice Channel Violations
 * Insult others, racial discrimination.
 * Send any texts, links, pictures involving politics, religion, bloody, sex, etc.
 * Abuse of power.
@@ -97,7 +103,12 @@ Administrators have right to delete violation message or message flow to keep a 
 * Attempting to cause negative emotions/response or provide false information to server members.
 * The use of bot distribute the chat or make someone annoyed.
 
-### What is spam?
+### Ballance Multiplayer Service Violations
+* In real-time chat dialog, post message, which violate any entry in Text & Voice Channel Violations.
+* Attack Ballance Multiplayer Server, including but not limited to SYN Floods etc.
+* Ignore contest rules, or interrupt contest by design, in official multiplayer contest.
+
+### Spam Violations
 * The content sent is enough to interrupt the normal chat.
 * Post a random, unrelated image or continuously and quickly publish multiple images.
 * Send several nonsense messages quickly in channel (for example, send many "oh" consecutively) or repeatedly post links.

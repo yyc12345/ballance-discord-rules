@@ -139,3 +139,9 @@ A "Ballance mod loader" mark at the top of the screen indicates that BML is inst
 
 Once you have it downloaded, the BallanceModLoader installer is presented as an MSI file and can be double-clicked to install. Unfortunately, the installer is only available in Chinese. What the most important thing during installation is that selecting a correct Ballance root folder (Which contains database.tdb).
 
+## <span id="jump-11">Ballance Multiplayer Service</span>
+
+Ballance Multiplayer Service allows a player to play Ballance with other players with low latency via a deployed central BMMO server. Considering the security of server and maintenance experience of CN BMMO server, **this service is by invitation only now.**
+
+* Members with at least one server role will automatically be able to enjoy this service.
+* If you do not have any server roles, you will first need to find a member who is willing to invite you and has already joined the online service. Then you need to use Addy to fill in an application form, after the administrator confirms, you will be added to the multiplayer role and can enjoy this service normally.
