@@ -144,4 +144,4 @@ Once you have it downloaded, the BallanceModLoader installer is presented as an 
 Ballance Multiplayer Service allows a player to play Ballance with other players with low latency via a deployed central BMMO server. Considering the security of server and maintenance experience of CN BMMO server, **this service is by invitation only now.**
 
 * Members with at least one server role will automatically be able to enjoy this service.
-* If you do not have any server roles, you will first need to find a member who is willing to invite you and has already joined the online service. Then you need to use Addy to fill in an application form, after the administrator confirms, you will be added to the multiplayer role and can enjoy this service normally.
+* If you do not have any server roles, you will first need to find a member who is willing to invite you and has already joined the online service. Then you need to use Appy to fill in an application form, after the administrator confirms, you will be added to the multiplayer role and can enjoy this service normally.

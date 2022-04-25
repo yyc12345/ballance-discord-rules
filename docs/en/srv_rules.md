@@ -36,12 +36,12 @@ The other roles are all abandoned roles. For some binding reasons, they have not
 
 Following roles are server core members.
 
-* `admin`: You can fill a form in Addy to try getting this role if you fufill following requirements.
-  * Reach Level 30 in MEE6.
-  * Have at least one server role.
-* `moderator`: You can fill a form in Addy to try getting this role if you fufill following requirements.
-  * Reach Level 20 in MEE6.
-  * Have at least one server role.
+* `admin`: You can fill a form in Appy to try getting this role if you fufill following requirements.
+    - Reach Level 30 in MEE6.
+    - Have at least one server role.
+* `moderator`: You can fill a form in Appy to try getting this role if you fufill following requirements.
+    - Reach Level 20 in MEE6.
+    - Have at least one server role.
 
 Following roles are specified by server owner. Unavailable.
 
@@ -49,7 +49,7 @@ Following roles are specified by server owner. Unavailable.
 * `gamedev`
 * `expert speedrunner`
 
-The people who have admin roles, will add following roles for you if you have related message or action. You also can fill form by Addy to order admin add following roles for you if you have real work.
+The people who have admin roles, will add following roles for you if you have related message or action. You also can fill form by Appy to order admin add following roles for you if you have real work.
 
 * `modding`
 * `mapper`
