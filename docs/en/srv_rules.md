@@ -1,4 +1,4 @@
-# Server rules
+# Server Rules
 
 Welcome to the server.
 
@@ -32,7 +32,7 @@ Following roles is medal roles
 
 The other roles are all abandoned roles. For some binding reasons, they have not been deleted yet.
 
-## Get roles
+## Get Roles
 
 Following roles are server core members.
 
@@ -58,14 +58,14 @@ The people who have admin roles, will add following roles for you if you have re
 
 ## Channel
 
-### Channel basic rules
+### Channel Basic Rules
 
 In addition to the channels in the `language` category, please send messages in English in all other channels. The channels contained in `language` category should send message in the language written on channel name.
 You also can join your language's channel for easier communication. If you don't find your language, you can apply for it to be added by contacting an admin.
 Additionally, please look channel's topic and pinned messages. Because they might have extra rules which should be followed in this channel.
 Channels under the `language` category can send off-topic content without the extra declaration of the channel topic. The remaining channels may not send any off-topic content without the channel topic's declaration.
 
-### Channel summary
+### Channel Summary
 
 * **welcome**: Welcome channel. Some brief rules, links and introduction.
 * **speedrun**: Speedrun channel. Serveed for publishing contest or tournament.
@@ -85,7 +85,7 @@ Channels under the `language` category can send off-topic content without the ex
 
 * **bot-playground**: Execute bot command
 
-## Punishment of violations
+## Punishment of Violations
 
 This punishment applies to all channels. Server owner, `admin` and `moderator` have the right to handle the responsible person when the following violations occur. When the first time the administrator will ask the responsible person to correct the error, the second time, the administrator will add the responsible person to the blacklist after 24 hours, if the responsible person needs to appeal, please explain to the administrator within 24 hours.
 
@@ -115,13 +115,13 @@ Administrators have right to delete violation message or message flow to keep a 
 * Abuse @here/everyone or repeatedly mention users
 * Pull up, incite others to join other servers or advertise other servers massively.
 
-## Bot usage
+## Bot Usage
 
 * All channel allow everyone to use bot.
 * Bot should suit current context when you using bot. For example, answering someone's question.
 * The rest of the bot use needs to be done in `#bot-playground`
 
-## Contact us
+## Contact Us
 
 As mentioned above, contacting the server owner or administrator is frequently mentioned. The way to contact is to mention them directly in `#suggestions`. For more serious problems that need to be handled by the administrator, you can mention them by roles. If you are shy, or you want to protect your privacy, or you want to report anonymously, you can also make a direct/private message to the corresponding person.
 
