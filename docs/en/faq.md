@@ -2,11 +2,60 @@
 
 ## <span id="jump-1">Installing Ballance</span>
 
-Go to our [official network disk](#jump-9) to download the installer. Then, run it to install Ballance.
+There are various installation method here. You can choose the most suit one for you freely. We also provide a guideline to help you choose the best one. See following content to know how to choose.  
+All resources referred in installation steps can be found in our [official network disk](#jump-9). All of them are located in `Installer` folder.
 
-* `Ballance-13levels-origin-low.exe`: The common installer for the most players. Note that this installer is in Chinese. Install is just a click of Next button away. We are finding better way to distribute and install Ballance.
-* `Ballance-12levels.iso`: The no modification installer published by Atari.
-* `Sudu-BallanceLevel13.zip`: The patch of official 12 levels installed game. Patch game after installing `Ballance-12levels.iso` if you need. A patch manual has placed in zip file. See [Installing Level 13 chapter](#jump-6) for more detail.
+* **[Beginner Installation](#jump-1-1): The most common installer suit for almost Ballance player, especially beginner. We HIGHLY SUGGEST you choose this method.**
+* [Vanilla Installation](#jump-1-2): If you just need a vanilla Ballance and also have some Ballance experience, choose this.
+* <span style="opacity:0.3">[Old Installation](#jump-1-3): The old installer which used before May 2023. This section is a archived section. Don't use this method anyway.</span>
+
+### <span id="jump-1-1">Beginner Installation</span>
+
+First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extractor. Run it and choose your preferred location to hold decompressed files.
+
+Then, enter decompressed folder `Ballance`, double click `install.bat` and run it. Windows may pop a window to acquire administrator permission. Don't worry, just allow it anyway. The installation may take a while, just calm down and wait until it finished.
+
+Now, the installation has finished. This distro has included BML. So you don't need install BML anymore. Double click created `Ballance Player` in desktop to run game.
+
+???+ danger "Don't move files!"
+    After the installation, or more exactly, after running the batch file, all decompressed file CAN NOT be moved casually.  
+    So the best solution is that choose a good location to place your Ballance files in advance.
+
+???+ info "Switch between fullscreen and windowed."
+    Ballance is running in fullscreen in default. If you need switch display mode between fullscreen and windowed. Double click `switch fullscreen.bat`. It may also need administrator permission.
+
+??? question "Is this batch file harmful? Why it need administrator permission?"
+    If you entirely sure that this UAC window is raised by your self, or more exactly, raised by this batch file, just relax yourself. It is definitely harmless for your PC.  
+    This batch file need administrator permission to modify Windows Registry which is essential for Ballance installation. It also need this permission to create desktop shortcuts and etc.  
+    This installer also is an open source project. Visit https://github.com/Xenapte/BallanceSetupTools to review its source code if you need.
+
+??? question "Why there are 2 shortcuts on my sesktop? Which one is real?"
+    After the installation, you may seen 2 shortcuts created on your desktop. These 2 shortcuts, both of them can launch Ballance.  
+    However we suggest use `Ballance Player`, not `Ballance` to launch. Actually, `Ballance` point to `Startup.exe` and `Ballance Player` point to `bin\Player.exe`. `Startup.exe` is just a launcher and `bin\Player.exe` is the real game. This is the reason why we suggest like this.
+
+??? info "How to uninstall?"
+    Run `uninstall.bat`.
+
+### <span id="jump-1-2">Vanilla Installation</span>
+
+!!! info "What is Vanilla? Who need it?"
+    Vanilla means the base game, without any modifications.  
+    This method only suit for some Ballance players with some experience. It is **not** suit for beginner of Ballance especially. Additionally, if you just want a pure vanilla Ballance and don't want BML and etc. This installation method may be also suit for you.
+
+0. Download `Ballance-12levels-vanilla.iso`. This ISO file is no modification installer published by Atari. Load it as a virtual CD and run its installer. This operation will installer a 12 levels Ballance for you.
+0. 12 levels Ballance is not the common Ballance we played. We need patch it with official patch and transform it into 13 levels Ballance. Download `Sudu-BallanceLevel13.zip`. A patch manual has placed in zip file. See [Installing Level 13 chapter](#jump-6) for more detail.
+0. If you need some extra things, such as BML and etc. See corresponding section to know how to install them.
+
+### <span id="jump-1-3">Old Installation</span>
+
+!!! warning "Deprecated Installer"
+    This installation method now is deprecated. See Beginner Installation for the latest install method.  
+    This section only is served for preserving old content.
+
+<span style="opacity:0.3">
+Download `Ballance-13levels-cndistro-low.exe` and run it to install Ballance. This is the very old installer for the most players. Now this installer is **deprecated**.  
+Note that this installer is in Chinese. Install is just a click of Next button away. We are finding better way to distribute and install Ballance.
+</span>
 
 ## <span id="jump-2">Installing Custom Maps</span>
 
