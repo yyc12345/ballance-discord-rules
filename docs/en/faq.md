@@ -11,7 +11,7 @@ All resources referred in installation steps can be found in our [official netwo
 
 ### <span id="jump-1-1">Beginner Installation</span>
 
-First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extractor. Run it and choose your preferred location to hold decompressed files.
+First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extractor. Run it and choose your preferred location to store decompressed files.
 
 Then, enter decompressed folder `Ballance`, double click `install.bat` and run it. Windows may pop a window to acquire administrator permission. Don't worry, just allow it anyway. The installation may take a while, just calm down and wait until it finished.
 
@@ -115,13 +115,36 @@ If you are using the original CD version of Ballance, this tutorial will introdu
 
 ## <span id="jump-7">How to Get Custom Maps</span>
 
-Recent custom maps:  
-You can find recent custom maps in `#new`. You can search `#new` with file limitation to get what you need.
+There are various ways to download custom maps.
 
-__[Download Ballance Map Pack (Version 7.6)](http://www.mediafire.com/folder/vyzo7893i0oln/Ballance_Map_Packs)__
-Map Pack contains lots of high-quality custom maps.
+!!! info "I Can't Read Map's Name in Chinese!"
+    You may notice the name of almost custom maps is in Chinese. That's because the Ballance community in China is more florescent than overworld community.  
+    But don't worry. A friendly Ballance player provides a extraordinary table including following fields.
+    
+    * Map author, release date, original name and translated name (extremely better than previous machine translation).
+    * Map type and difficulty.
+    * Map post ID and LucaS video ID (convenient for the players coming from LucaS videos).
+    * Related videos for previewing maps.
+    * etc...
 
-[Download separate map files at our Network disk (Hosted by Chinese Ballance Forum, translators needed)](http://ballancemaps.ys168.com)  
+    **See [pseudoacetyl/BallanceCustomMaps](https://github.com/pseudoacetyl/BallanceCustomMaps/blob/main/CustomMapList.md) for more infomation.** Thank pseudoacetyl!
+
+### Map Pack
+
+Map Pack contains lots of high-quality custom maps. However, the map pack may only be updated every few years. So if you need some latest custom maps, try other methods.
+
+__[**Click Here to Download Ballance Map Pack (Version 7.6)**](http://www.mediafire.com/folder/vyzo7893i0oln/Ballance_Map_Packs)__
+
+### Discord
+
+You can find recent custom maps in `#new`. You also can search `#new` with file limitation to get what you need.  
+However, this Discord server was established in 2018, so obviously some custom maps can not be found in our Discord server channels. In this case, try using other methods.
+
+### Network Disk
+
+Our network disk allow you download custom maps individually. It also contain the oldest and the latest custom maps. However, this network disk is hosted by Chinese Ballance Forum, translators needed.
+
+[Click here to download separate map files at our Network disk](http://ballancemaps.ys168.com)  
 
 ## <span id="jump-8">Recording Ballance Videos</span>
 
@@ -166,7 +189,7 @@ Want the audio to be recorded? Try setting it on one of the speaker options.
 
 ## <span id="jump-9">Ballance Resources</span>
 
-_[Click to go to our official network disk](https://mega.nz/#F!CV5SyapR!LbduTW51xmkDO4EDxMfH9w)_
+__[**Click to go to our official network disk**](https://mega.nz/#F!CV5SyapR!LbduTW51xmkDO4EDxMfH9w)__
 
 Resources included:
 

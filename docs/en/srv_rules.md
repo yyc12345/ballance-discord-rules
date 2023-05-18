@@ -117,9 +117,11 @@ Administrators have right to delete violation message or message flow to keep a 
 
 ## Bot Usage
 
-* All channel allow everyone to use bot.
-* Bot should suit current context when you using bot. For example, answering someone's question.
-* The rest of the bot use needs to be done in `#bot-playground`
+* Only `#bot-playground` is free ("free" as in "free speech," not as in "free beer.") to use bots.
+* In other channels, such as `#general`, bot usage should follow these entries.
+    * Everyone can use bot.
+    * Bot should serve for current context when you using bot. For example, answering someone's question.
+    * Executing bot commands just for your own needs is not allowed. For example, executing `!resources` just gets resource URLs for yourself.
 
 ## Contact Us
 
