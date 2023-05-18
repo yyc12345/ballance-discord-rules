@@ -118,7 +118,7 @@ If you are using the original CD version of Ballance, this tutorial will introdu
 There are various ways to download custom maps.
 
 !!! info "I Can't Read Map's Name in Chinese!"
-    You may notice the name of almost custom maps is in Chinese. That's because the Ballance community in China is more florescent than overworld community.  
+    You may notice the name of almost custom maps is in Chinese. That's because the Ballance community in China was more florescent than the international community 10 years ago.  
     But don't worry. A friendly Ballance player provides a extraordinary table including following fields.
     
     * Map author, release date, original name and translated name (extremely better than previous machine translation).
