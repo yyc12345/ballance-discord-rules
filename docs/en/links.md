@@ -1,6 +1,6 @@
 # Links
 
-Permanent invitation link of our server: https://discord.gg/hyarMPm
+Permanent server invite link: https://discord.gg/hyarMPm
 
 Ballance International network disk: https://mega.nz/#F!CV5SyapR!LbduTW51xmkDO4EDxMfH9w
 
