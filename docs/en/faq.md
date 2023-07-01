@@ -2,38 +2,39 @@
 
 ## <span id="jump-1">Installing Ballance</span>
 
-There are various installation method here. You can choose the most suit one for you freely. We also provide a guideline to help you choose the best one. See following content to know how to choose.  
-All resources referred in installation steps can be found in our [official network disk](#jump-9). All of them are located in `Installer` folder.
+There are a few ways to install Ballance, each with its own pros and cons.  
+All the resources referred in installation steps can be found in our [official network disk](#jump-9). All of them are located in the `Installer` folder.
 
-* **[Beginner Installation](#jump-1-1): The most common installer suit for almost Ballance player, especially beginner. We HIGHLY SUGGEST you choose this method.**
-* [Vanilla Installation](#jump-1-2): If you just need a vanilla Ballance and also have some Ballance experience, choose this.
-* <span style="opacity:0.3">[Old Installation](#jump-1-3): The old installer which used before May 2023. This section is a archived section. Don't use this method anyway.</span>
+* **[Beginner Installation](#jump-1-1): The most common installer suitable for almost everyone, especially beginners. We HIGHLY SUGGEST you choose this method.**
+* [Vanilla Installation](#jump-1-2): If you just need vanilla Ballance and is experienced with it, choose this.
+* <span style="opacity:0.3">[Old Installation](#jump-1-3): The old installer which was used before May 2023. This method is deprecated; don't use it.</span>
 
 ### <span id="jump-1-1">Beginner Installation</span>
 
-First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extractor. Run it and choose your preferred location to store decompressed files.
-
-Then, enter decompressed folder `Ballance`, double click `install.bat` and run it. Windows may pop a window to acquire administrator permission. Don't worry, just allow it anyway. The installation may take a while, just calm down and wait until it finished.
-
-Now, the installation has finished. This distro has included BML. So you don't need install BML anymore. Double click created `Ballance Player` in desktop to run game.
+First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extractor. Run it and choose a directory to store the installer files.
 
 ???+ danger "Don't move files!"
-    After the installation, or more exactly, after running the batch file, all decompressed file CAN NOT be moved casually.  
-    So the best solution is that choose a good location to place your Ballance files in advance.
+    After running the installer, the decompressed files CANNOT be moved easily.  
+    It is highly recommended to place the decompressed files in a folder where you won't regret it later on.
 
-???+ info "Switch between fullscreen and windowed."
-    Ballance is running in fullscreen in default. If you need switch display mode between fullscreen and windowed. Double click `switch fullscreen.bat`. It may also need administrator permission.
+After decompressing, go to the aforementioned folder which contains the decompressed files, then run `install.bat`. When Windows asks for administrator privileges, just press Yes. The installation may take a while, so be patient.
 
-??? question "Is this batch file harmful? Why it need administrator permission?"
-    If you entirely sure that this UAC window is raised by your self, or more exactly, raised by this batch file, just relax yourself. It is definitely harmless for your PC.  
-    This batch file need administrator permission to modify Windows Registry which is essential for Ballance installation. It also need this permission to create desktop shortcuts and etc.  
-    This installer also is an open source project. Visit https://github.com/Xenapte/BallanceSetupTools to review its source code if you need.
+??? question "Is this batch file harmful? Why it need admin privileges?"
+    If you're entirely sure that this User Account Control window was triggered by this installer, then no need to worry; it is harmless for your PC.  
+    This batch file needs admin privileges to modify some registry keys which is essential for Ballance installation.  
+    This installer is open source, by the way; [here's the source code.](https://github.com/Xenapte/BallanceSetupTools)
 
-??? question "Why there are 2 shortcuts on my sesktop? Which one is real?"
-    After the installation, you may seen 2 shortcuts created on your desktop. These 2 shortcuts, both of them can launch Ballance.  
-    However we suggest use `Ballance Player`, not `Ballance` to launch. Actually, `Ballance` point to `Startup.exe` and `Ballance Player` point to `bin\Player.exe`. `Startup.exe` is just a launcher and `bin\Player.exe` is the real game. This is the reason why we suggest like this.
+Note that if you install Ballance with this method, you don't need to install BML as this comes pre-installed.  
+To run Ballance, double-click the desktop shortcut named `Ballance Player`.  
 
-??? info "How to uninstall?"
+???+ question "Why are there 2 shortcuts on my desktop? Which one is real?"
+    After the installation, you may see 2 new shortcuts on your desktop. Both of these can launch Ballance, but they're different.  
+    `Ballance` points to `Startup.exe`, which is the launcher for Ballance. Meanwhile, `Ballance Player` points to `bin\Player.exe`, which just opens the game directly. We suggest using the `Ballance Player` shortcut as this is faster than using the `Ballance` shortcut.  
+
+??? info "How do I toggle fullscreen mode"
+    By default, Ballance runs in fullscreen. If you want to toggle that, run `switch fullscreen.bat`. It may also need administrator privileges.
+
+??? info "How do I uninstall Ballance?"
     Run `uninstall.bat`.
 
 ### <span id="jump-1-2">Vanilla Installation</span>
