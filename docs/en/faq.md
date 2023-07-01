@@ -41,11 +41,12 @@ To run Ballance, double-click the desktop shortcut named `Ballance Player`.
 
 !!! info "What is Vanilla? Who need it?"
     Vanilla means the base game, without any modifications.  
-    This method only suit for some Ballance players with some experience. It is **not** suit for beginner of Ballance especially. Additionally, if you just want a pure vanilla Ballance and don't want BML and etc. This installation method may be also suit for you.
+    **This method is only recommended for experienced Ballance players and players who want an unmodded game.**
 
-0. Download `Ballance-12levels-vanilla.iso`. This ISO file is no modification installer published by Atari. Load it as a virtual CD and run its installer. This operation will installer a 12 levels Ballance for you.
-0. 12 levels Ballance is not the common Ballance we played. We need patch it with official patch and transform it into 13 levels Ballance. Download `Sudu-BallanceLevel13.zip`. A patch manual has placed in zip file. See [Installing Level 13 chapter](#jump-6) for more detail.
-0. If you need some extra things, such as BML and etc. See corresponding section to know how to install them.
+1. Download `Ballance-12levels-vanilla.iso`. This `.iso` file is the original installer published by Atari. Mount the `.iso` file, go to the new CD drive that pops up, and run the installer. This will install the original 12-level version of Ballance.
+    - For Windows 7 and earlier players, you may need a tool such as [WinCDEmu](https://wincdemu.sysprogs.org/download/) to mount the `.iso` file.
+2. If you want the official Level 13 DLC, download `Sudu-BallanceLevel13.zip`. A patch manual has placed in the zip file. See [the guide on installing the Level 13 DLC](#jump-6) for more details.
+3. If you need some extra things (such as BML), see the corresponding section for the installation guide.
 
 ### <span id="jump-1-3">Old Installation</span>
 
