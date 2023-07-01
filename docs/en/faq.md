@@ -5,11 +5,11 @@
 There are a few ways to install Ballance, each with its own pros and cons.  
 All the resources referred in installation steps can be found in our [official network disk](#jump-9). All of them are located in the `Installer` folder.
 
-* **[Beginner Installation](#jump-1-1): The most common installer suitable for almost everyone, especially beginners. We HIGHLY SUGGEST you choose this method.**
-* [Vanilla Installation](#jump-1-2): If you just need vanilla Ballance and is experienced with it, choose this.
-* <span style="opacity:0.3">[Old Installation](#jump-1-3): The old installer which was used before May 2023. This method is deprecated; don't use it.</span>
+* **[Beginner Installation Guide](#jump-1-1): The most common installer suitable for almost everyone, especially beginners. We HIGHLY SUGGEST you choose this method.**
+* [Vanilla Installation Guide](#jump-1-2): If you just need vanilla Ballance and is experienced with it, choose this.
+* <span style="opacity:0.3">[Deprecated Installation Guide](#jump-1-3): The old installer which was used before May 2023. This method is deprecated; don't use it.</span>
 
-### <span id="jump-1-1">Beginner Installation</span>
+### <span id="jump-1-1">Beginner Installation Guide</span>
 
 First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extractor. Run it and choose a directory to store the installer files.
 
@@ -37,7 +37,7 @@ To run Ballance, double-click the desktop shortcut named `Ballance Player`.
 ??? info "How do I uninstall Ballance?"
     Run `uninstall.bat`.
 
-### <span id="jump-1-2">Vanilla Installation</span>
+### <span id="jump-1-2">Vanilla Installation Guide</span>
 
 !!! info "What is Vanilla? Who need it?"
     Vanilla means the base game, without any modifications.  
@@ -48,15 +48,15 @@ To run Ballance, double-click the desktop shortcut named `Ballance Player`.
 2. If you want the official Level 13 DLC, download `Sudu-BallanceLevel13.zip`. A patch manual has placed in the zip file. See [the guide on installing the Level 13 DLC](#jump-6) for more details.
 3. If you need some extra things (such as BML), see the corresponding section for the installation guide.
 
-### <span id="jump-1-3">Old Installation</span>
+### <span id="jump-1-3">Deprecated Installation Guide</span>
 
 !!! warning "Deprecated Installer"
-    This installation method now is deprecated. See Beginner Installation for the latest install method.  
-    This section only is served for preserving old content.
+    This installation method is deprecated. See Beginner Installation for the latest install method.  
+    This section only serves as an archive.
 
 <span style="opacity:0.3">
-Download `Ballance-13levels-cndistro-low.exe` and run it to install Ballance. This is the very old installer for the most players. Now this installer is **deprecated**.  
-Note that this installer is in Chinese. Install is just a click of Next button away. We are finding better way to distribute and install Ballance.
+Download `Ballance-13levels-cndistro-low.exe` and run it to install Ballance.
+Note that this installer is in Chinese; just click the Next button a few times, and enter in the installation directory when it asks you to.
 </span>
 
 ## <span id="jump-2">Installing Custom Maps</span>
