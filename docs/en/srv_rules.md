@@ -1,129 +1,120 @@
 # Server Rules
 
-Welcome to the server.
+Welcome to our server, the following article will cover the rules of Ballance Discord. Please make sure you already have basic knowledge about Discord before reading. Have fun!
 
-This channel will detail the server rules.
+Contact `@yyc12345#2755` on Discord if you are willing to provide a translation for another language.
 
-If you think the translation needs improvement or you want to add a greeting in another language, please contact `@yyc12345#2755` .
+## Roles
 
-You should familar with Discord operaion before you reading following content.
+Typically, every new member that joined the server does not have any roles. Fear not, as no essential permissions are locked; you are able intereact with others normally.
 
-## Role
+### Types
 
-There are 3 types of roles: admin roles, work roles and medal roles. Admin roles have power to manage this server and help server host do somethings. The person who have work roles will work on a specific work, such as record identification. And as for medal, it just like a medal or tag.
+There are three types of roles: Managing, Working, and Badge. “Managing” roles have administrator permissions and have full control over the server. “Working” roles have limited permissions and serve for specific purposes. “Badge” roles act as a tag.
 
-Following roles is admin roles, if it reach the maximum, a election will be hold.
+The following roles are “Managing” roles. An election will be held should a limit has been exceeded.
 
-* `admin`: Core administrator. Maximum is 4. Responsibilities are manage server and resolve conflict.
-* `moderator`: Light administrator. Maximum is 10. It take responsibility to help core administrator. Current main work is clean advertisement and unsafe account.
+* `admin`: Core manager. In charge of the entire server. (Max 4)
+* `moderator`: Staff. Assists core managers. In charge of keeping the server ad-free and removing suspicious accounts. (Max 10)
 
-Following roles is work roles
+The following roles are “Working” roles.
 
-* `record certifier`: Assign to the people who are in charge of speedrun certification in Speedrun.com, Chinese Ballance Forum or `#mission`
+* `record certifier`: People responsible for Speedrun.com, Ballance Bar, and certificated `#mission` players.
 
-Following roles is medal roles
+The following are “Badge” roles.
 
-* `gamedev`: Assign to Ballance developer
-* `modding`: Assign to the people who make game assisted application, including game mod, toolbox.
-* `mapper`: Assign to the perople who have at least 1 custom map or have ability to answer common mapping issues.
-* `speedrunner`: Assign to the people who have at least speedrun record or love finding speedrun shortcut.
-* `expert speedrunner`: Higher than `speedrunner`
-* `youtuber`: Assign to the people who have at least 1 Ballance video in his/her video channel.
+* `gamedev`: Ballance Dev.
+* `modding`: Ballance modders. For example, game mod, addons.
+* `mapper`: Map makers or those who have knowledge to tutor others.
+* `speedrunner`: Record-holders or those who love finding shortcuts.
+* `expert speedrunner`: Speedrunners, but expert.
+* `youtuber`: Those who upload Ballance contents on their channel.
 
-The other roles are all abandoned roles. For some binding reasons, they have not been deleted yet.
+Unlisted roles are no longer in use. They are not deleted due to technical issues.
 
-## Get Roles
+### Conditions
 
-Following roles are server core members.
+Core server members: Appliable. Must at least own 1 role and reach the following levels in MEE6.
 
-* `admin`: You can fill a form in Appy to try getting this role if you fufill following requirements.
-    - Reach Level 30 in MEE6.
-    - Have at least one server role.
-* `moderator`: You can fill a form in Appy to try getting this role if you fufill following requirements.
-    - Reach Level 20 in MEE6.
-    - Have at least one server role.
+* `admin`: Lv 30
+* `moderator`: Lv 20
 
-Following roles are specified by server owner. Unavailable.
+The following 3 roles are given by admins and are unappliable.
 
 * `record certifier`
 * `gamedev`
 * `expert speedrunner`
 
-The people who have admin roles, will add following roles for you if you have related message or action. You also can fill form by Appy to order admin add following roles for you if you have real work.
+The following 4 roles are appliable. An admin can also assign it to a user if they find the user qualified.
 
 * `modding`
 * `mapper`
 * `speedrunner`
 * `youtuber`
 
-## Channel
+## Channels
 
-### Channel Basic Rules
+### Basic Rules
 
-In addition to the channels in the `language` category, please send messages in English in all other channels. The channels contained in `language` category should send message in the language written on channel name.
-You also can join your language's channel for easier communication. If you don't find your language, you can apply for it to be added by contacting an admin.
-Additionally, please look channel's topic and pinned messages. Because they might have extra rules which should be followed in this channel.
-Channels under the `language` category can send off-topic content without the extra declaration of the channel topic. The remaining channels may not send any off-topic content without the channel topic's declaration.
+Any channel outside of the `language` category only allows English. Channels under the `language` category are spoken with its corresponding language. Please read the channel topics and follow it.
 
-### Channel Summary
+Off-topic contents belong to the `language` channels and #off-topic only.
 
-* **welcome**: Welcome channel. Some brief rules, links and introduction.
-* **speedrun**: Speedrun channel. Serveed for publishing contest or tournament.
-* **new**:  Publish / Get new speedrun, custom map, application, texture and audio effect.
-* **bulletin**: Server bulletin.
+### Core Channels
 
-* **bmmo**: The release channel for Ballance Multiplay Service, including the latest plugin and available server URL.
-* **lobby**: The channel for BMMO players to chat and team up.
+* **welcome**: Greeting channels with links.
+* **speedrun**: Channel to post torunament news and records.
+* **new**:  Channel to post new map, textures, sound effects, or records.
+* **bulletin**: News channel.
 
-* **general**: Core chat channel
-* **skill**: Discuss game skills and shortcuts, such as high-speed ball glitch / zip glitch.
-* **dev**: Ballance related development, such as Virtools.
-* **missions**: A challenge list for all Ballance player.
-* **mapping**: The issue related to Ballance mapping.
-* **suggestions**: Provide suggestion for this server and contact with server admin.
-* **off-topic**: off-topic but no spam.
+* **bmmo**: Everything regarding Ballance multiplayer.
+* **lobby**: Chat channel for Ballance multiplayers.
 
-* **bot-playground**: Execute bot command
+* **general**: Ballance chat. General inquiries.
+* **skill**: Channel to discuss about techniques in Ballance.
+* **dev**: Channel to discuss about Ballance developing.
+* **missions**: Some challenges for new Ballance players.
+* **mapping**: Ballance map-making inquiries.
+* **suggestions**: Channel to post suggestions to the server.
+* **off-topic**: Everything else but spam.
 
-## Punishment of Violations
+* **bot-playground**: Bot commands.
 
-This punishment applies to all channels. Server owner, `admin` and `moderator` have the right to handle the responsible person when the following violations occur. When the first time the administrator will ask the responsible person to correct the error, the second time, the administrator will add the responsible person to the blacklist after 24 hours, if the responsible person needs to appeal, please explain to the administrator within 24 hours.
+## Punishments
 
-Administrators have right to delete violation message or message flow to keep a clean server without any notification.
+Violation of rules in any channel will result in punishments. `admin`s and `moderator`s can conduct punishments to any user they think has violated the following rules.
 
-### Text & Voice Channel Violations
-* Insult others, racial discrimination.
-* Send any texts, links, pictures involving politics, religion, bloody, sex, etc.
-* Abuse of power.
-* Massively delete your own messages.
-* Send any NSFW text, link, picture
-* Send spam messages in non-prescribed areas.
-* Inciting others to violate server rules or create violence.
-* Constant harassment of users, when users are no longer willing to accept your messages.
-* Attempting to cause negative emotions/response or provide false information to server members.
-* The use of bot distribute the chat or make someone annoyed.
+A verbal warning is given the first time a violation has happened, the second time, however, a ban will take action within 24 hours. During so, the suspect in question can file an appeal to any managers.
 
-### Ballance Multiplayer Service Violations
-* In real-time chat dialog, post message, which violate any entry in Text & Voice Channel Violations.
-* Attack Ballance Multiplayer Server, including but not limited to SYN Floods etc.
-* Ignore contest rules, or interrupt contest by design, in official multiplayer contest.
+Managers are allowed to remove any content without anyone's knowing in order to maintain server order.
 
-### Spam Violations
-* The content sent is enough to interrupt the normal chat.
-* Post a random, unrelated image or continuously and quickly publish multiple images.
-* Send several nonsense messages quickly in channel (for example, send many "oh" consecutively) or repeatedly post links.
-* Abuse @here/everyone or repeatedly mention users
-* Pull up, incite others to join other servers or advertise other servers massively.
+### Text and Voice Channels
+* Be rude to others, being racist
+* Posting anything (eg links, images) about politics, religions, violence, sex, NSFW
+* Abusing permissions
+* Mass deleting sent messages or spamming
+* Shit talking
+* Trying to get others to violate server rules
+* Being an annoyance
+* Spreading fake news or negative thoughts
+* Using bot commands randomly in the middle of a conversation
 
-## Bot Usage
+### Ballance Multiplayer
+* Violating the rules of “Text and Voice Channels” in lobby.
+* Attacking the server.
+* Interfering or violating torunament rules.
 
-* Only `#bot-playground` is free ("free" as in "free speech," not as in "free beer.") to use bots.
-* In other channels, such as `#general`, bot usage should follow these entries.
-    * Everyone can use bot.
-    * Bot should serve for current context when you using bot. For example, answering someone's question.
-    * Executing bot commands just for your own needs is not allowed. For example, executing `!resources` just gets resource URLs for yourself.
+### What Are Spam Messages?
+* A message inturupting a conversation.
+* A message which has nothing to do with the on-going converstion and is being rapidly sent.
+* Unsolicited advertisements.
+* Eg: sending “oh” or pinging someone over and over.
+
+## Bot
+
+* Bot commands should be executed in `#bot-playground`.
+* Unless needed (eg answering), bot commands cannot be used in other channels.
 
 ## Contact Us
 
-As mentioned above, contacting the server owner or administrator is frequently mentioned. The way to contact is to mention them directly in `#suggestions`. For more serious problems that need to be handled by the administrator, you can mention them by roles. If you are shy, or you want to protect your privacy, or you want to report anonymously, you can also make a direct/private message to the corresponding person.
-
+You can reach out to us in `#suggestions` or directly message an admin/moderator.
