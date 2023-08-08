@@ -207,6 +207,9 @@ There are two methods of mapping, **We highly recommend using the Blender workfl
 All the resources you need can be downloaded from our [official network disk](#jump-9). They are located in the `Mapping` folder and are divided into two subfolders according to Blender workflow and 3ds Max workflow.  
 In any workflow, Virtools is essential. You should install Virtools 3.5 first.
 
+Also, mapping can be a tough work, especially for beginners. You may face many questions during the mapping process, and these questions will take a long discussion to answer.  
+Give it a try and then consider whether to continue. Once you decide, stick with it.
+
 ### <span id="jump-12-1">Blender Workflow</span>
 
 Blender workflow are the easiest, fastest, and most understandable way to create Ballance maps today!
