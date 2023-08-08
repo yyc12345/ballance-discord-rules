@@ -104,7 +104,7 @@ There are various ways to download custom maps.
 1. Go to [**pseudoacetyl/BallanceCustomMaps**](https://github.com/pseudoacetyl/BallanceCustomMaps/blob/main/CustomMapList.md) to find your map first.
 1. Go to [**pseudoacetyl Map Network Disk**](https://mega.nz/folder/ARR3RRBL#kvoVNZVOxbUmpDBUqLUccg) to download it.
 
-???+ info "How to Find Map"
+!!! info "How to Find Map"
     **pseudoacetyl/BallanceCustomMaps** is an index file that contains most of the maps. It includes:
 
     * Map author, release date, original name and translated name (a lot better than machine translations).
@@ -202,34 +202,33 @@ This is a free non-profit service, so you don't have to pay anything.
 
 ## <span id="jump-12">Creating Custom Map</span>
 
-There are two methods of mapping, I prefer the Blender workflow as it doesn't involve installing older software and has better tutorials.  
-All the resources you need can be downloaded from our [official network disk](#jump-9). They are located in the `Mapping` folder and are divided into two subfolders according to Blender workflow and 3ds Max workflow.
+There are two methods of mapping, **We highly recommend using the Blender workflow for mapping** as it does not require the installation of older softwares and has better tutorials.
+
+All the resources you need can be downloaded from our [official network disk](#jump-9). They are located in the `Mapping` folder and are divided into two subfolders according to Blender workflow and 3ds Max workflow.  
+In any workflow, Virtools is essential. You should install Virtools 3.5 first.
 
 ### <span id="jump-12-1">Blender Workflow</span>
 
 Blender workflow are the easiest, fastest, and most understandable way to create Ballance maps today!
 
-#### Tutorial
-
 Watch this video to learn how to create custom map with Blender: https://www.youtube.com/watch?v=UiMHlVFBR3U  
 The language of the video is Chinese, you can use YouTube's automatic translation function to watch the video.  
 More tutorials related to Blender workflow can be viewed in the collection which the video above located.
 
-#### Requirements
+!!! info "Confirm Blender Version"
+    Blender Workflow now require Blender LTS 3.6.  
+    You may notice that the video tutorial says we need to use Blender LTS 3.3. This is mainly because at the time of making the video, the latest Blender LTS version was 3.3. Please refer to the version marked here or in the `README` of [yyc12345/BallanceBlenderHelper](https://github.com/yyc12345/BallanceBlenderHelper).  
+    LTS means Long Term Support. Choosing a long term supported version of Blender will make it easier to create our mapping plugin to minimize the amount of work required to migrate versions.
 
-Blender Workflow now require Blender LTS 3.6 and Virtools 3.5. You should install them first.
+??? info "How to install BallanceBlenderHelper?"
+    See the `README` of [yyc12345/BallanceBlenderHelper](https://github.com/yyc12345/BallanceBlenderHelper).
 
-#### Related Tools
-
-* [Blender LTS](https://www.blender.org/download/lts/)
-* [yyc12345/BallanceBlenderHelper](https://github.com/yyc12345/BallanceBlenderHelper)
-* [yyc12345/BallanceVirtoolsHelper](https://github.com/yyc12345/BallanceVirtoolsHelper)
+??? info "Why is there no Testing plugin tab? Where is my plugin?"
+    After upgrading to Blender LTS 3.6, the Testing plugin category is no longer available due to decisions made by the Blender team. Please look for BallanceBlenderHelper from the Cummunity tab.
 
 ### <span id="jump-12-2">3ds Max Workflow</span>
 
 We do not recommend using 3ds Max for custom map creation, but if you dislike Blender or are more familiar with 3ds Max, you can continue to use 3ds Max for mapping.
-
-#### Tutorial
 
 There are video tutorials for 3ds max workflow, but they are still in Chinese with no subtitles. If you insist on watching them, please visit: https://www.bilibili.com/video/BV1gb411r7ob
 
@@ -240,7 +239,5 @@ There are video tutorials for 3ds max workflow, but they are still in Chinese wi
 
 These tutorials are written in Chinese and you will need a suitable translator to read them.
 
-#### Requirements
-
-The 3ds Max workflow can only be used with 32-bit 3ds Max 9, 2010, 2012 (2010 version recommended). Any incorrect version will result in not being able to install the NMO export plugin, which will result in not being able to create custom map.  
-Also, Virtools 3.5 is essential.
+!!! info "Install Outdated 3ds Max Please"
+    The 3ds Max workflow can only be used with 32-bit 3ds Max 9, 2010, 2012 (2010 version recommended). Any incorrect version will result in not being able to install the NMO export plugin, which will result in not being able to create custom map.

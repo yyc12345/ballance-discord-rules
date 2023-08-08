@@ -4,7 +4,7 @@ Welcome to the server.
 
 This channel will detail the server rules.
 
-If you think the translation needs improvement or you want to add a greeting in another language, please contact `@yyc12345#2755` .
+If you think the translation needs improvement or you want to add a greeting in another language, please contact `@yyc12345` .
 
 You should familar with Discord operaion before you reading following content.
 

@@ -5,7 +5,7 @@
 
 Willkommen auf diesem Server.
 Dieser Channel gibt Auskunft über die Regeln
-Wenn du denkst, die Übersetzung sollte überarbeitet werden, oder wenn du neue Sprachen hinzufügen willst, kontaktiere bitte `@yyc12345#2755`
+Wenn du denkst, die Übersetzung sollte überarbeitet werden, oder wenn du neue Sprachen hinzufügen willst, kontaktiere bitte `@yyc12345`
 
 ## Rollen
 Die Standartrolle hat bereits die meisten Berechtigungen. Alle Gruppen außer den Gruppen 'Root' und 'Admin' dienen als Identifikation einzelner Personen. Wenn du denkst, spezielle Fähigkeiten zu haben, kontaktiere einen Root oder Admin um eine Rolle zugewiesen zu bekommen.
