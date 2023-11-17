@@ -12,6 +12,7 @@ nav:
     - English:
         - 'Homepage': 'en/main.md'
         - 'Server rules': 'en/srv_rules.md'
+        - 'Ballance on Steam': 'en/ballance_on_steam.md'
         - 'Links': 'en/links.md'
         - 'FAQ': 'en/faq.md'
     - 简体中文:
