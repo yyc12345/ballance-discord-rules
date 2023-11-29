@@ -13,6 +13,7 @@ nav:
         - 'Homepage': 'en/main.md'
         - 'Server rules': 'en/srv_rules.md'
         - 'Ballance on Steam': 'en/ballance_on_steam.md'
+        - 'BML & New Player Migration': 'en/bml_migration.md'
         - 'Links': 'en/links.md'
         - 'FAQ': 'en/faq.md'
     - 简体中文:

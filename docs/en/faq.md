@@ -14,23 +14,12 @@ First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extra
 
 Then, enter decompressed folder `Ballance`, double click `install.bat` and run it. Windows may pop a window to acquire administrator permission. Don't worry, just allow it anyway. The installation may take a while, just calm down and wait until it finished.
 
-Now, the installation has finished. This distro has included BML. So you don't need install BML anymore. Double click created `Ballance Player` in desktop to run game.
-
-???+ danger "Don't move files!"
-    After the installation, or more exactly, after running the batch file, all decompressed file CAN NOT be moved casually.  
-    So the best solution is that choose a good location to place your Ballance files in advance.
-
-???+ info "Switch between fullscreen and windowed."
-    Ballance is running in fullscreen in default. If you need switch display mode between fullscreen and windowed. Double click `switch fullscreen.bat`. It may also need administrator permission.
+Now, the installation has finished. This distro has included BML and New Player. So you don't need install BML or New Player anymore. Double click created `Ballance` in desktop to run game.
 
 ??? question "Is this batch file harmful? Why it need administrator permission?"
     If you entirely sure that this UAC window is raised by your self, or more exactly, raised by this batch file, just relax yourself. It is definitely harmless for your PC.  
     This batch file need administrator permission to modify Windows Registry which is essential for Ballance installation. It also need this permission to create desktop shortcuts and etc.  
     This installer also is an open source project. Visit [Xenapte/BallanceSetupTools](https://github.com/Xenapte/BallanceSetupTools) to review its source code if you need.
-
-??? question "Why there are 2 shortcuts on my sesktop? Which one is real?"
-    After the installation, you may seen 2 shortcuts created on your desktop. These 2 shortcuts, both of them can launch Ballance.  
-    However we suggest use `Ballance Player`, not `Ballance` to launch. Actually, `Ballance` point to `Startup.exe` and `Ballance Player` point to `bin\Player.exe`. `Startup.exe` is just a launcher and `bin\Player.exe` is the real game. This is the reason why we suggest like this.
 
 ??? info "How to uninstall?"
     Run `uninstall.bat`.
@@ -53,6 +42,7 @@ There are 2 method to install custom map. Normal method is suit for everyone. An
 
 !!! warning "Version warning"
     If you are running BML with lower version than 0.3.28, this method may cause game crash. Please update to the latest version of BML.
+    If you use BML+, no need to worry about this warning.
 
 1. Place map files in the `Ballance/ModLoader/Maps` Folder.
 1. Launch game and go to Start menu.
@@ -66,7 +56,7 @@ There are 2 method to install custom map. Normal method is suit for everyone. An
 
 ## <span id="jump-3">Running Ballance on Windows 10 / 11</span>
 
-We **highly recommand** that install [BML (2020 version)](#jump-10) to solve any compatibility issues.
+We **highly recommand** that install [New Player](#jump-15) to solve any compatibility issues.
 
 If you really do not want to install it, you also can go to Ballance's root folder and right-click Startup.exe, select `Properties`. Select the `Compatibility` tab, then check the box next to `Run this program in compatibility mode for:`. Follow this order to set the version of Windows: `Windows 7` -> `Windows Vista SP2` -> `Windows XP SP3` -> `Windows XP SP2` -> `Windows 95` until the game can run normally.
 
@@ -177,19 +167,19 @@ Resources included:
 
 Ballance Mod Loader (BML) is a free open-source API to expand the original content of Ballance.
 
-!!! info "Migrate Infomation"
-    For users with the old BML version, for example, those who have the "Debug Mode" mod installed, please remove that BML version. If you are unsure about how to remove it, consider uninstalling and re-installing Ballance itself.
+!!! info "Depracted BML"
+    Gamepiaynmo created old BML (has `Debug_Mode.nmo` one) and BML (show `Ballance Mod Loader` at title) are depracted now. We are using doyaGu created BML+ (show `BML PLus` on title) now. We do not distinguish BML and BML+ in this FAQ. All BML is BML+. If you are still using Gamepiaynmo's BML, we highly suggest you uninstall them first and use BML+ instead.
 
 !!! warning "Version Warning"
     I am highly recommend keeping your BML at the latest version. Some BML mod required the latest version of BML and the the latest version fix more bugs and will improve your game experience.
 
-First, you should download it from [the release page of BallanceModLoader GitHub project](https://github.com/yyc12345/BallanceModLoader/releases/). In this release page, please download the latest build. Do **not** download the dev package (filename ending with `-dev`). Download **another** zip file is OK.
+First, you should download it from [the release page of BallanceModLoaderPlus GitHub project](https://github.com/yyc12345/BallanceModLoader/releases/). In this release page, please download the latest build. Do **not** download the dev package (filename ending with `-dev`). Download **another** zip file is OK.
 
 Then, extract and merge the downloaded files with the Ballance folder.
 
 If you are using compatibility modes to run the game, it should be set to Windows XP or above (since BML removed the system check that Ballance performs when booting the game, compatibility issues should disappear while using BML).
 
-A "Ballance Mod Loader" mark at the top of the screen indicates that BML is installed correctly.
+A "BML Plus" mark at the top of the screen indicates that BML is installed correctly.
 
 ## <span id="jump-11">Ballance Multiplayer Service</span>
 
@@ -244,3 +234,66 @@ These tutorials are written in Chinese and you will need a suitable translator t
 
 !!! info "Install Outdated 3ds Max Please"
     The 3ds Max workflow can only be used with 32-bit 3ds Max 9, 2010, 2012 (2010 version recommended). Any incorrect version will result in not being able to install the NMO export plugin, which will result in not being able to create custom map.
+
+## <span id="jump-13">Switch Ballance Between Fullscreen and Windowed</span>
+
+Open `Bin/Player.ini` and modify entry `FullScreen`. Set it to `0` for windowed or `1` for fullscreen. For more configurations in this INI file, please browse `Bin/README.pdf` or [this URL](https://github.com/doyaGu/BallancePlayer).
+
+If you can't find `Bin/Player.ini`, it mean that you are using old Ballance distribution. We highly suggest you install our distribution because it is more suit for contempory computer. However if you still stick to your Ballance. Please open Windows Registry Editor, then try navigating to any matched entries list following from top to bottom.
+
+* `HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Ballance\Settings`
+* `HKEY_CURRENT_USER\SOFTWARE\Classes\VirtualStore\MACHINE\SOFTWARE\WOW6432Node\Ballance\Settings`
+
+Then, modify key `FullScreen`. Set it to `0` for windowed or `1` for fullscreen.
+
+## <span id="jump-14">Finding and Installing Mods</span>
+
+1. Go to [**pseudoacetyl Mod Network Disk**](https://mega.nz/folder/wEB11B5D#FhU0JpzqomuFCAkMuBePWA) to download it.
+1. Put downloaded mods in `ModLoader/Mods`. Please do not put any zip file in this folder except the mod self is zip file.
+
+You may confused with how these mods does and how to find your wanted mods. There is a brief list introducing each mods does.
+
+|Mods|Description|
+|:---|:---|
+|AdvancedTravelCam|Advanced Travel Camera is an improved version for the built-in TravelCam mod of Ballance Mod Loader. Usually used by BMMO commentator.|
+|BallanceOptiFine|-|
+|BallSticky|-|
+|BaseCmoCfg|-|
+|Blackout|Give you darkness more than Level 12.|
+|BMLModuls|-|
+|Coredump|-|
+|CursorClipper|-|
+|DeformedWB|-|
+|DualBallControl|-|
+|DynamicFov|-|
+|ExtraSector|Support more than 8 sectors in Ballance.|
+|FontCraft|Change game used font.|
+|FreeViewRotation|-|
+|Interference|-|
+|LanternFader|Optimize the render of latern to increase game frame rate.|
+|MapScripts|-|
+|NewSpawn|-|
+|PhysicsEditor|Control the gravity force in Ballance.|
+|PositionViewer|-|
+|RealTimeMeter|-|
+|ScreenCapturer|-|
+|Segment|Show your SR score for each sector and keep the best one like LiveSplit.|
+|SpeedrunShortcuts|-|
+|SpiritTrail|-|
+|SysInfoDisplay|-|
+|TASSupport|-|
+|WatchYourTime|-|
+
+## <span id="jump-15">Installing New Player</span>
+
+New Player is a brand-new Ballance Player developed by doyaGu. New Player is based on the reversed code of original Ballance Player application. New Player perform better than old Player in any aspects and also it is open source.
+
+??? info "What is Player?"
+    Player is the executable application of Ballance. It is not the core of Ballance, but it is essential to start Ballance. It is located in `Ballance/Bin/Player.exe`
+
+1. First, you should download it from [the release page of BallancePlayer GitHub project](https://github.com/yyc12345/BallancePlayer/releases/). In this release page, please download the latest build (file name like `NewPlayer-vx.y.z.zip`).
+1. Extract and merge the downloaded files with `Ballance/Bin` folder (Important, not the root folder, it is Bin folder located in Ballance root folder).
+
+If you are using compatibility modes to run the game, such as Windows 95, Run as Administrator, dgVoodoo, etc. You should remove them because New Player can run perfectly on contempory computer without any compatibility settings.
+
+New Player also support more customizable configurations and command line. Please browse `Bin/README.pdf` for more infomations.
