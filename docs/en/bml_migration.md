@@ -40,7 +40,7 @@ No. New Player can run perfectly without any compatibility settings. If you are 
 
 ### Where is FramerateUnlocker? How to limit frame rate?
 
-FramerateUnlocker is not available in BML+ because BML+ has already integrated it. You can see frame rate settings in menu Options  - Mods - BML - Misc.
+FramerateUnlocker is not available in BML+ because BML+ has already integrated it. You can see frame rate settings in menu `Options - Mods - BML - Misc`.
 
 Set entry `UnlockFrameRate`  to "Yes" to get unlimited frame rate. Or set it to "No" to limit frame rate. When `UnlockFrameRate` is "No", entry `SetMaxFrameRate` control the maximum value of frame rate. Set it to 0 to get VSync.
 

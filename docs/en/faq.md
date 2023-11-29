@@ -297,3 +297,9 @@ New Player is a brand-new Ballance Player developed by doyaGu. New Player is bas
 If you are using compatibility modes to run the game, such as Windows 95, Run as Administrator, dgVoodoo, etc. You should remove them because New Player can run perfectly on contempory computer without any compatibility settings.
 
 New Player also support more customizable configurations and command line. Please browse `Bin/README.pdf` for more infomations.
+
+## <span id="jump-16">Limit Frame Rate/span>
+
+If you have install [BML](#jump-10), you can easily see frame rate settings in menu `Options - Mods - BML - Misc` because BML+ has already integrated it. Set entry `UnlockFrameRate`  to "Yes" to get unlimited frame rate. Or set it to "No" to limit frame rate. When `UnlockFrameRate` is "No", entry `SetMaxFrameRate` control the maximum value of frame rate. Set it to 0 to get VSync.
+
+For non-BML player, you need find some softwares supporting frame rate clamping. We don't have any suggestions about this.
