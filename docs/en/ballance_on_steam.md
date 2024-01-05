@@ -1,7 +1,13 @@
 # Clarifying the Legitimacy of Ballance on Steam
 
-**TL;DR**  
-**Hold off on purchasing Ballance from Steam for now. Let's wait for a response from Ziggurat or the original Ballance developer team.**
+## Updated Post
+
+**Ziggurat states that they acquired the rights from Atari, the original publisher of Ballance, so there is no question of the legality of Ziggurat Ballance on Steam and GOG, and you are free to purchase it.**
+
+## Original Post
+
+TL;DR  
+Hold off on purchasing Ballance from Steam for now. Let's wait for a response from Ziggurat or the original Ballance developer team.
 
 Recent updates to the Ballance page on Steam, as indicated by SteamDB, suggest that Ziggurat is actively preparing for the release of Ballance on the platform. However, considering the available information, the legality of Ballance on Steam might not be definitive. Here's our statement regarding Ziggurat's release of Ballance on Steam.
 
