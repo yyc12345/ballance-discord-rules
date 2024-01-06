@@ -2,47 +2,29 @@
 
 ## <span id="jump-1">Installing Ballance</span>
 
-There are various installation method here. You can choose the most suit one for you freely. We also provide a guideline to help you choose the best one. See following content to know how to choose.  
-All resources referred in installation steps can be found in our [official network disk](#jump-9). All of them are located in `Installer` folder.
+Please buy Ballance by Ziggurat from [Steam](https://store.steampowered.com/app/2000770/Ballance/) or [GOG](https://www.gog.com/game/ballance). As of January 5, 2023, this server no longer offers any illegal versions for download.
 
-* **[Beginner Installation](#jump-1-1): The most common installer suit for almost Ballance player, especially beginner. We HIGHLY SUGGEST you choose this method.**
-* [Vanilla Installation](#jump-1-2): If you just need a vanilla Ballance and also have some Ballance experience, choose this.
+Sadly, however, Ziggurat's release of Ballance's faithfulness to the original does not fulfill the expectations of today's gamers for a re-release of a 20-year-old game. It lacks many essential features, some of which have actually been addressed by the Ballance community. So here we offer 3 patch packs for optimizing the Ziggurat release of Ballance.
 
-### <span id="jump-1-1">Beginner Installation</span>
+* Level13DLC: This patch pack is a free Level 13 DLC released by the original production team.
+* NewPlayerPatch: This patch package will replace Ballance's default executable program with a more modern version. It supports custom resolutions, widescreen, unlimited frame rates, and other features. See [New Player](#jump-15) section for details.
+* BallanceModLoaderPlusPatch: This patch adds a Mod Loader to Ballance to allow Ballance to load user-written mods to enrich the gameplay experience.Ballance has a number of mods, including inline mods. See [Mod Loader](#jump-10) section for details on Mod Loader. For details on how to install mods, see [Finding and Installing Mods](#jump-14) section.
 
-First, Download `Ballance-13levels-bbugdistro-high.exe`. This is a 7z self extractor. Run it and choose your preferred location to store decompressed files.
+### Installing the Patches
 
-Then, enter decompressed folder `Ballance`, double click `install.bat` and run it. Windows may pop a window to acquire administrator permission. Don't worry, just allow it anyway. The installation may take a while, just calm down and wait until it finished.
+The patches are available on our [official network disk](#jump-9), they are located in the `Installer` folder. You can patch as many patches as you like, but we recommend installing all of them to maintain the same gaming experience as most Ballance players. The patches are provided in ZIP format. Simply use compression software (such as Winzip or 7z) and extract the contents of the downloaded ZIP package to the root directory of Ballance. If the compression software suggests a folder conflict, please choose Merge (not Replace), if it suggests a file conflict, please choose Replace.
 
-Now, the installation has finished. This distro has included BML and New Player. So you don't need install BML or New Player anymore. Double click created `Ballance` in desktop to run game.
+Ballance's root directory refers to the location where Ballance is installed, if you can find a file named `Database.tdb` in this folder, you are on the right track. For users installing Ballance from Steam, it is usually `xxx/steamapps/common/Ballance` (`xxx` is the location of your Steam repository)
 
-??? question "Is this batch file harmful? Why it need administrator permission?"
-    If you entirely sure that this UAC window is raised by your self, or more exactly, raised by this batch file, just relax yourself. It is definitely harmless for your PC.  
-    This batch file need administrator permission to modify Windows Registry which is essential for Ballance installation. It also need this permission to create desktop shortcuts and etc.  
-    This installer also is an open source project. Visit [Xenapte/BallanceSetupTools](https://github.com/Xenapte/BallanceSetupTools) to review its source code if you need.
+### Uninstalling the Patches
 
-??? info "How to uninstall?"
-    Run `uninstall.bat`.
-
-### <span id="jump-1-2">Vanilla Installation</span>
-
-!!! info "What is Vanilla? Who need it?"
-    Vanilla means the base game, without any modifications.  
-    This method only suit for some Ballance players with some experience. It is **not** suit for beginner of Ballance especially. Additionally, if you just want a pure vanilla Ballance and don't want BML and etc. This installation method may be also suit for you.
-
-0. Download `Ballance-12levels-vanilla.iso`. This ISO file is no modification installer published by Atari. Load it as a virtual CD and run its installer. This operation will installer a 12 levels Ballance for you.
-0. 12 levels Ballance is not the common Ballance we played. We need patch it with official patch and transform it into 13 levels Ballance. Download `Sudu-BallanceLevel13.zip`. A patch manual has placed in zip file. See [Installing Level 13 chapter](#jump-6) for more detail.
-0. If you need some extra things, such as BML and etc. See corresponding section to know how to install them.
+We recommend that you uninstall all installed patches using the "Verify Game Integrity" feature provided by Steam. You can also manually remove patches if you know exactly which files they replace.
 
 ## <span id="jump-2">Installing Custom Maps</span>
 
-There are 2 method to install custom map. Normal method is suit for everyone. And if you have installed [the new version of BML (2020 version)](#jump-10), you can use BML method to install custom map.
+There are 2 method to install custom map. Normal method is suit for everyone. And if you have installed [BML](#jump-10), you can use BML method to install custom map.
 
 ### BML Method
-
-!!! warning "Version warning"
-    If you are running BML with lower version than 0.3.28, this method may cause game crash. Please update to the latest version of BML.
-    If you use BML+, no need to worry about this warning.
 
 1. Place map files in the `Ballance/ModLoader/Maps` Folder.
 1. Launch game and go to Start menu.
@@ -68,8 +50,7 @@ You also can install a virtual machine with Windows 7 to play Ballance if Wine o
 ## <span id="jump-5">Enable Debug Mode / Cheat Mode</span>
 
 !!! warning "Install BML First"
-    You must have BML installed to enable Cheat Mode.
-    If you use [Beginner Installation](#jump-1-1), no need to worry about this warning.
+    You must have [BML](jump-10) installed to enable Cheat Mode.
 
 1. Click on the `/` key on your keyboard in the game window and you will see a translucent black input box appear at the bottom of the game screen.
 1. Type `/cheat` in it (`/` is automatically typed, no need to type it again) and press Enter on your keyboard.
@@ -78,12 +59,7 @@ You also can install a virtual machine with Windows 7 to play Ballance if Wine o
 
 ## <span id="jump-6">Installing Level 13 / Twilight Zone / SuDu</span>
 
-If you are using the original CD version of Ballance, this tutorial will introduce how to install the official SuDu plugin (Level 13 plugin).
-
-1. Go to our [official network disk](#jump-9) to download the plugin which is located in the `Installer` folder, called `SuDu-BallanceLevel13.zip`.
-1. Use a compression software, such as Winzip or 7z to decompress it.
-1. Go to the `SuDu_BallanceLv13` folder.
-1. You will see a file called `SuDu_ReadMe.txt`. Open it and follow its instruction to install this plugin.
+Just browse the [Installing Ballance](#jump-1) chapter and follow the instructions to install the Level13DLC.
 
 ## <span id="jump-7">How to Get Custom Maps</span>
 
@@ -158,28 +134,21 @@ You also can upload your video to [streamable](https://streamable.com/) if you d
 
 Resources included:
 
-* Ballance v1.13
+* Patches for Steam Ballance
 * Virtools 3.5
-* Some mapping tools
+* Mapping Tools
 * etc...
 
 ## <span id="jump-10">Installing Ballance Mod Loader</span>
 
 Ballance Mod Loader (BML) is a free open-source API to expand the original content of Ballance.
 
-!!! info "Depracted BML"
-    Gamepiaynmo created old BML (has `Debug_Mode.nmo` one) and BML (show `Ballance Mod Loader` at title) are depracted now. We are using doyaGu created BML+ (show `BML PLus` on title) now. We do not distinguish BML and BML+ in this FAQ. All BML is BML+. If you are still using Gamepiaynmo's BML, we highly suggest you uninstall them first and use BML+ instead.
+You can install Ballance ModLoaderPatch by navigating to the [Installing Ballance](#jump-1) chapter and following the instructions. A "BML Plus" mark at the top of the screen indicates that BML is installed correctly.
 
-!!! warning "Version Warning"
+!!! info "Keep Up to Date"
     I am highly recommend keeping your BML at the latest version. Some BML mod required the latest version of BML and the the latest version fix more bugs and will improve your game experience.
 
-First, you should download it from [the release page of BallanceModLoaderPlus GitHub project](https://github.com/yyc12345/BallanceModLoader/releases/). In this release page, please download the latest build. Do **not** download the dev package (filename ending with `-dev`). Download **another** zip file is OK.
-
-Then, extract and merge the downloaded files with the Ballance folder.
-
-If you are using compatibility modes to run the game, it should be set to Windows XP or above (since BML removed the system check that Ballance performs when booting the game, compatibility issues should disappear while using BML).
-
-A "BML Plus" mark at the top of the screen indicates that BML is installed correctly.
+    Simply download the new version of BML again as described above and install it in the same way. The new version file will automatically overwrite the old version file. If there is anything that requires special attention, it will be stated in the release. Note that some mods may no longer load after updating, so please update your mods at the same time!
 
 ## <span id="jump-11">Ballance Multiplayer Service</span>
 
@@ -235,7 +204,7 @@ These tutorials are written in Chinese and you will need a suitable translator t
 !!! info "Install Outdated 3ds Max Please"
     The 3ds Max workflow can only be used with 32-bit 3ds Max 9, 2010, 2012 (2010 version recommended). Any incorrect version will result in not being able to install the NMO export plugin, which will result in not being able to create custom map.
 
-## <span id="jump-13">Switch Ballance Between Fullscreen and Windowed</span>
+## <span id="jump-13">Fullscreen and Windowed Ballance</span>
 
 Open `Bin/Player.ini` and modify entry `FullScreen`. Set it to `0` for windowed or `1` for fullscreen. For more configurations in this INI file, please browse `Bin/README.pdf` or [this URL](https://github.com/doyaGu/BallancePlayer).
 
@@ -248,8 +217,9 @@ Then, modify key `FullScreen`. Set it to `0` for windowed or `1` for fullscreen.
 
 ## <span id="jump-14">Finding and Installing Mods</span>
 
-1. Go to [**pseudoacetyl Mod Network Disk**](https://mega.nz/folder/wEB11B5D#FhU0JpzqomuFCAkMuBePWA) to download it.
-1. Put downloaded mods in `ModLoader/Mods`. Please do not put any zip file in this folder except the mod self is zip file.
+1. Go to [**CN Ballance Community Resource Site**](http://ballancemaps.ysepan.com/)
+1. Expand node to `Ballance自制模组(Mod) -> BML+` and find mods which you are looking for.
+1. Put downloaded mods in `Ballance/ModLoader/Mods`. Please do not put any zip file in this folder except the mod self is zip file.
 
 You may confused with how these mods does and how to find your wanted mods. There is a brief list introducing each mods does.
 
@@ -260,6 +230,7 @@ You may confused with how these mods does and how to find your wanted mods. Ther
 |BallSticky|-|
 |BaseCmoCfg|-|
 |Blackout|Give you darkness more than Level 12.|
+|BLinguist|Multi-languages mod|
 |BMLModuls|-|
 |Coredump|-|
 |CursorClipper|-|
@@ -286,20 +257,43 @@ You may confused with how these mods does and how to find your wanted mods. Ther
 
 ## <span id="jump-15">Installing New Player</span>
 
-New Player is a brand-new Ballance Player developed by doyaGu. New Player is based on the reversed code of original Ballance Player application. New Player perform better than old Player in any aspects and also it is open source.
-
 ??? info "What is Player?"
     Player is the executable application of Ballance. It is not the core of Ballance, but it is essential to start Ballance. It is located in `Ballance/Bin/Player.exe`
 
-1. First, you should download it from [the release page of BallancePlayer GitHub project](https://github.com/yyc12345/BallancePlayer/releases/). In this release page, please download the latest build (file name like `NewPlayer-vx.y.z.zip`).
-1. Extract and merge the downloaded files with `Ballance/Bin` folder (Important, not the root folder, it is Bin folder located in Ballance root folder).
+New Player is a brand-new Ballance Player developed by doyaGu. New Player is based on the reversed code of original Ballance Player application. New Player perform better than old Player in any aspects and also it is [open source](https://github.com/doyaGu/BallancePlayer).
+
+Browse [Installing Ballance](#jump-1) chapter and apply NewPlayerPatch to install New Player.
 
 If you are using compatibility modes to run the game, such as Windows 95, Run as Administrator, dgVoodoo, etc. You should remove them because New Player can run perfectly on contempory computer without any compatibility settings.
 
-New Player also support more customizable configurations and command line. Please browse `Bin/README.pdf` for more infomations.
+New Player also support more customizable configurations and command line, including more resolutions, wide screen support and unlimit frame rate. Please browse `Bin/README.pdf` for more infomations.
 
-## <span id="jump-16">Limit Frame Rate/span>
+!!! info "Keep Up to Date"
+    I am highly recommend keeping your New Player at the latest version.
 
-If you have install [BML](#jump-10), you can easily see frame rate settings in menu `Options - Mods - BML - Misc` because BML+ has already integrated it. Set entry `UnlockFrameRate`  to "Yes" to get unlimited frame rate. Or set it to "No" to limit frame rate. When `UnlockFrameRate` is "No", entry `SetMaxFrameRate` control the maximum value of frame rate. Set it to 0 to get VSync.
+    Simply download the new version of New Player again as described above and install it in the same way. The new version file will automatically overwrite the old version file. If there is anything that requires special attention, it will be stated in the release.
 
-For non-BML player, you need find some softwares supporting frame rate clamping. We don't have any suggestions about this.
+## <span id="jump-16">Frame Rate (FPS)</span>
+
+The legacy Ballance frame rate is limited to a maximum of your screen refresh rate. However, we can lift this limitation by installing some patches. Since Ballance's input is tied to rendering, a faster frame rate means your input frame rate is faster too.
+
+### Unlimited Frame Rate
+
+1. Install [New Player](#jump-15) first.
+1. Browse its configuration manual and keep eyes on its Unlock Framerate fields.
+
+### Limit Frame Rate to Specific Value
+
+1. Not only install [New Player](#jump-15), but also install [BML](#jump-10) first.
+1. Launch game, navigate to menu `Options - Mods - BML - Misc`.
+1. Set entry `UnlockFrameRate`  to "Yes" to get unlimited frame rate. Or set it to "No" to limit frame rate. When `UnlockFrameRate` is "No", entry `SetMaxFrameRate` control the maximum value of frame rate. Set it to 0 to get VSync.
+
+For legacy Ballance player, you need find some softwares supporting frame rate clamping. We don't have any suggestions about this.
+
+## <span id="jump-17">Full HD Ballance</span>
+
+Install [New Player](#jump-15), browse its configuration manual and keep eyes on its Resolution and Wide Screen fields.
+
+## <span id="jump-18">Germany UI Issue</span>
+
+Install [New Player](#jump-15), browse its configuration manual and keep eyes on its Language fields.
